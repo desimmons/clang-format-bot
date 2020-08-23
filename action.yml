@@ -1,7 +1,7 @@
 # action.yml
-name: 'ROS Style Guide C++ Formatter'
-description: 'Formats using clang in ROS Stlye and commits changes'
-author: Aaron Roller
+name: 'C++ Formatter'
+description: 'Formats using clang in Google C++ Stlye and commits changes'
+author: David
 branding:
   color: green
   icon: check-square
@@ -17,7 +17,7 @@ inputs:
   commit-message:
     description: 'The commit message used when changes need to be committed'
     required: false
-    default: 'style: Applied ROS C++ Style Guide'
+    default: 'style: Applied Google C++ Style Guide'
 runs:
   using: 'docker'
   image: 'Dockerfile'
